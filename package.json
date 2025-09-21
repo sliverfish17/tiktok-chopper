@@ -1,0 +1,25 @@
+{
+  "name": "tiktok-chopper",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "Oleksii Kolotenko",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "process": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "ffprobe-static": "^3.1.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@types/yargs": "^17.0.33",
+    "@types/yargs-parser": "^21.0.3",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.3"
+  }
+}

@@ -1,0 +1,36 @@
+
+# Node
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+
+# Output / temp
+out/
+work_*/
+*.log
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python (for offline whisper)
+.venv/
+__pycache__/
+*.pyc
+.python-version
+
+# Editors/IDEs
+.vscode/
+.idea/
+
+# Samples: keep folder, ignore media
+samples/*
+!samples/.gitkeep
+!samples/README.md
+!samples/*.srt   # keep example subtitles if you want
